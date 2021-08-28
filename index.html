@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CODEJAM 2021</title>
+    <script src="js/ejercicios.js"></script>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h1>CODEJAM 2021</h1>
+        </header>
+        <section>
+            <article>
+                <header>
+                    <h2>Ejercicio 1     <strong>10</strong></h2>
+                    <H3>Distancia minima</H3>
+                </header>
+                <section>
+                    <div>
+                        <input type="text" >
+                    </div>
+                </section>
+            </article>
+            <article>
+                <header>
+                    <h2>Ejercicio 6</h2>
+                    <H3>Distancia minima</H3>
+                    <p>
+                        . Arrays creator
+
+Given two integers size and u, return the number of all the possible arrays of length size you can create using u different integers with the condition that no more than 2 elements are repeated one after another. The elements you use do not matter, just make sure they are different.
+
+Example 1
+
+Input:
+
+size = 1, u = 3
+
+Output: 3
+
+Explanation:
+
+Here, u = 3 different elements were used: 1, 2, and 3. The arrays of length size = 1 are:
+
+[1]
+[2]
+[3]
+
+Example 2
+
+Input:
+
+size = 3, u = 3
+
+Output: 24
+
+Explanation:
+
+The possible arrays are:
+
+[1,1,2]    [2,2,1]    [3,3,1]
+[1,1,3]    [2,2,3]    [3,3,2]
+[1,2,2]    [2,1,1]    [3,1,1]
+[1,2,3]    [2,1,3]    [3,1,2]
+[1,3,2]    [2,3,1]    [3,2,1]
+[1,3,3]    [2,3,3]    [3,2,2]
+[1,2,1]    [2,1,2]    [3,1,3]
+[1,3,1]    [2,3,2]    [3,2,3]
+
+Note that the following arrays are not an option because the elements are repeated sequentially more than two times.
+
+[1,1,1]
+[2,2,2]
+[3,3,3]
+
+Constraints
+
+    1 <= size <= 9
+    1 <= u <= 10
+
+Please enter the output for the following inputs:
+
+size
+
+7
+
+u
+
+8
+                    </p>
+                </header>
+                <section>
+                    <div>
+                        <input type="text" >
+                    </div>
+                </section>
+            </article>
+        </section>
+        <section>
+            <article>
+                <header>
+                    <h2>Ejercicio 2 <strong>15</strong></h2>
+                    <H3>Distancia minima</H3>
+                    <p>
+                        2. Maximum element with the minimum sum
+
+Let numbers be an array of integers. Get the maximum element in the array that produces the smallest sum when adding all the elements that are different from itself.
+
+Example 1:
+
+Input:
+
+numbers = [1,2,3,3,3,3,4,5,6,6]
+
+Output: 6
+
+Explanation:
+
+    For 1, the sum of the rest of elements different from itself is 2+3+3+3+3+4+5+6+6 = 35
+    For 2, the sum is 34.
+    For 3, the sum is 24.
+    For 4, the sum is 32.
+    For 5, the sum is 31.
+    For 6, the sum is 24.
+
+Both 3 and 6 produce the smallest sum (24), but 6 is greater than 3. Therefore, 6 is the maximum element that produces the smallest sum.
+
+Also, consider that the numbers can be positive or negative.
+
+Please enter the output for the following inputs:
+
+numbers
+
+[2,-10,0,-8,4,-5,10,0,8,-9,4,-6,3,4,8,10,6,-5,2,-6,9,-10,4,-1,6,-1,7,10,-10,-3,-6,1,7,-1,9,-1,2,3,4,8,-3,-3,-5,5,-8,-1,9,8,8,0,-5,3,-6,-9,10,-8,-3,-4,-1,-8,-6,4,-10,1,7,-1,0,10,1,-1,-6,-2,-2,5,-1,-7,4,5,-5,6,-7,6,-2,-5,5,7,-4,8,0,8,-10,-7,-2,0,9,10,5,5,-8,9]
+
+numbers
+
+[0,7,1,-10,2,-4,-1,3,-2,10,-2,-6,-9,9,1,10,3,-2,0,9,6,-5,10,-10,-2,-5,-5,7,-6,-10,2,2,-5,-3,8,0,3,4,-2,-9,-8,-1,-5,-9,-3,-10,7,-3,-9,4,0,1,0,-9,-8,6,-5,1,-6,-1,0,9,-10,-9,-4,5,5,5,-1,-9,1,-7,-5,-4,0,7,-7,0,6,7,8,-2,0,-6,-6,-2,2,5,0,-4,6,-6,10,-8,-5,-5,7,0,7,-9]
+
+Please copy and paste your code
+                    </p>
+                </header>
+                <section>
+                    <div>
+                        <input type="text" >
+                    </div>
+                </section>
+            </article>
+            <article>
+                <header>
+                    <h2>Ejercicio 6</h2>
+                    <H3>Distancia minima</H3>
+                    <p>
+                        . Arrays creator
+
+Given two integers size and u, return the number of all the possible arrays of length size you can create using u different integers with the condition that no more than 2 elements are repeated one after another. The elements you use do not matter, just make sure they are different.
+
+Example 1
+
+Input:
+
+size = 1, u = 3
+
+Output: 3
+
+Explanation:
+
+Here, u = 3 different elements were used: 1, 2, and 3. The arrays of length size = 1 are:
+
+[1]
+[2]
+[3]
+
+Example 2
+
+Input:
+
+size = 3, u = 3
+
+Output: 24
+
+Explanation:
+
+The possible arrays are:
+
+[1,1,2]    [2,2,1]    [3,3,1]
+[1,1,3]    [2,2,3]    [3,3,2]
+[1,2,2]    [2,1,1]    [3,1,1]
+[1,2,3]    [2,1,3]    [3,1,2]
+[1,3,2]    [2,3,1]    [3,2,1]
+[1,3,3]    [2,3,3]    [3,2,2]
+[1,2,1]    [2,1,2]    [3,1,3]
+[1,3,1]    [2,3,2]    [3,2,3]
+
+Note that the following arrays are not an option because the elements are repeated sequentially more than two times.
+
+[1,1,1]
+[2,2,2]
+[3,3,3]
+
+Constraints
+
+    1 <= size <= 9
+    1 <= u <= 10
+
+Please enter the output for the following inputs:
+
+size
+
+7
+
+u
+
+8
+                    </p>
+                </header>
+                <section>
+                    <div>
+                        <input type="text" >
+                    </div>
+                </section>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
